@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Introduction}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}State of the art}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Theoretical approach}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Solution implementation}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Short description}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Programming language}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Axelrod library description}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Solution concept and description}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Solution outputs}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Experimental Results}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusions}{6}%

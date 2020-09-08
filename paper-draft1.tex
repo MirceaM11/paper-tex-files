@@ -1,0 +1,62 @@
+% !BIB TS-program = biber
+
+\documentclass[11pt, oneside, leqno, a4paper]{report}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{indentfirst}
+\usepackage{nameref}
+\usepackage{cleveref}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\addbibresource{bibliog.bib}
+
+
+\setcounter{chapter}{1}
+%SetFonts
+
+%SetFonts
+
+
+\title{Master's thesis}
+\author{Mircea Milencianu}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This is the abstract of the paper. Last to be written.
+\end{abstract}
+
+\tableofcontents
+\newpage
+\thispagestyle{empty}
+\section{Introduction} 
+\section{State of the art} \label{sota}
+\chapter{Theoretical approach} \label{theappr}
+\chapter{Solution implementation} \label{solimpl}
+\section{Short description} 
+Regarding all theoretical aspects presented in  \cref{theappr} I have developed a solution in order to support those ideas. The foundational building block on which this solution was developed is the Python3 programming language.
+Python has many advantages and it has become the de facto programming language for different fields and purposes. For this solution it helped me by giving an important jumpstart using the Axelrod library, being the second building block on which this entire solution is built. 
+In the following pages I will explain why and how Python, Axelrod library and different other third party modules have helped me shape a solution and its outputs.
+\section{Programming language} \label{progrlang}
+Python is a suitable language for this paper.
+\section{Axelrod library description} \label{axellib}
+The Axelrod python library builds on the python programming language, thus giving researchers a comprehensive, flexible and stable tool to study the Iterated Prisoner's Dilemma game.
+\section{Solution concept and description} \label{solcandd}
+\section{Solution outputs} \label{solout}
+\chapter{Experimental Results} \label{results}
+\chapter{Conclusions} \label{concl}
+
+
+\printbibliography
+%
+% ENDING
+%
+\end{document}  
